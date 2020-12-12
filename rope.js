@@ -22,7 +22,7 @@ class Rope{
    display() {
        
         var pointA=this.rope.bodyA.position;
-        var pointB=this.rope.pointB.position;
+        var pointB=this.rope.bodyB.position;
    
      strokeWeight(5);
  
